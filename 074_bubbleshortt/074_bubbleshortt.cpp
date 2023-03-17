@@ -56,5 +56,13 @@ void display() {                               // Prosedur untuk menampilkan has
     }
     cout << endl;                               // Output baris kosong
 }
+int main()
+{
+    input();                                    // Memanggil prosedur input()
+    unsorted();                                 // Memanggil Prosedur Unsorted()
+    bubbleSortArray();                          // Memanggil Prosedur bubbleSortArray()
+    display();                                  // Memanggil Prosedur display
+    return 0;
+}
 
 
